@@ -1,0 +1,38 @@
+body{
+    text-align: center;
+}
+#store{
+    color: white;
+    background-color: rgb(71, 48, 202);
+}
+#button{
+    border: none;
+    padding: 20px;
+    border-radius: 10px;
+    color: rgb(5, 5, 8);
+    background-color: rgb(4, 193, 218);
+    font-size: large;
+    font-weight: 600;
+}
+#button:hover{
+    transform: scale(1.1);
+}
+.bad{
+    background-color: red;
+}
+.good{
+    color: white;
+    background-color: green;
+    padding: 15px;
+}
+
+.price{
+    color: red;
+    font-size: large;
+    font-weight: 400;
+    /* background-color: blue; */
+}
+/* #products{
+    display: grid;
+    grid-template-columns: repeat(2, 200px);
+} */
